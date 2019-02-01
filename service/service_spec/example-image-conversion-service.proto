@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message ByteArrayImage {
+    bytes byteArray = 1;
+}
+
+message Base64Image {
+    string base64 = 1;
+}
+
+service ConvertImage {
+    rpc convert(ByteArrayImage) returns (Base64Image) {}
+}

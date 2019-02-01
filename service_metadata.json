@@ -1,0 +1,26 @@
+{
+    "version": 1,
+    "display_name": "example-image-conversion-service",
+    "encoding": "json",
+    "service_type": "process",
+    "payment_expiration_threshold": 40320,
+    "model_ipfs_hash": "QmUW63oG2RX6e84kWSH6yLzXKtvrhcT4QUNLfvxHDq3Y7X",
+    "mpe_address": "0x39f31Ac7B393fE2C6660b95b878FEB16eA8f3156",
+    "pricing": {
+        "price_model": "fixed_price",
+        "price_in_cogs": 0
+    },
+    "groups": [
+        {
+            "group_name": "default_group",
+            "group_id": "Vm/BlYMnmd6+nXaGjJx0UxpsYBaZNRv+1gj4X6bnpFQ=",
+            "payment_address": "0xD416d832F6AE2Ca7d9C7C05f9255Ab49b70c0fe4"
+        }
+    ],
+    "endpoints": [
+        {
+            "group_name": "default_group",
+            "endpoint": "http://54.203.198.53:7018"
+        }
+    ]
+}
