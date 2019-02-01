@@ -5,7 +5,7 @@
    "REGISTRY_ADDRESS_KEY": "0xe331bf20044a5b24c1a744abc90c1fd711d2c08d",
    "PASSTHROUGH_ENABLED": true,
    "EXECUTABLE_PATH": "./service/example-image-conversion-service.py",
-   "ORGANIZATION_ID": "ramonduraes",
+   "ORGANIZATION_ID": "snet",
    "SERVICE_ID": "example-image-conversion-service",
    "PAYMENT_CHANNEL_STORAGE_SERVER": {
        "DATA_DIR": "/opt/singnet/etcd/"
